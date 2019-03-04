@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+   
+    <style>
+    	.error-div {
+    		width : 80%;
+    		padding: 10%;
+    	}
+    	
+    	.mR-60 {
+    		text-align : right;
+    		margin-right : 60px;
+    		float: left;
+    	}
+    </style>
+</head>
+
+<body class="app">
+    <div class="error-div">
+        <div class="mR-60"><img alt="#" src="/assets/images/500.png" th:src="@{assets/images/500.png}"></div>
+        <div class="d-f jc-c fxd-c">
+            <h1 style="font-size:60px ;color: red">Oops</h1>
+            <h3 class="mB-10 fsz-lg c-grey-900 tt-c">Internal server error</h3>
+            <p class="mB-30 fsz-def c-grey-700">Something goes wrong with our servers, please try again later or contact with Admin.</p>
+            <div><a href="home" type="primary" class="btn btn-primary">Go to Home</a></div>
+        </div>
+    </div>
+   <!--  <script type="text/javascript" src="vendor.js"></script>
+    <script type="text/javascript" src="bundle.js"></script> -->
+</body>
+<!-- Mirrored from colorlib.com/polygon/adminator/500.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2018 05:36:43 GMT -->
+
+</html>
